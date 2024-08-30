@@ -1,0 +1,23 @@
+.questions{
+    &__info p {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+        padding: 0;
+        font-size: 22px;
+        margin: 0;
+    }
+    
+    &__info.active p{
+        max-height: 50px;
+        padding: 10px 0;
+    }
+
+    &__info h4{
+        cursor: pointer;
+        font-size: 25px;
+    }
+}
+
+
+

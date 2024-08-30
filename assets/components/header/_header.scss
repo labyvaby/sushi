@@ -1,0 +1,61 @@
+.header{
+    img{
+        width: 30px;
+        height: 30px;
+    }
+    text-align: center;
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin: 40px 0;
+        a{
+            width: 100%;
+        }
+        button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            background: rgb(133, 51, 51);
+            padding: 10px 100px;
+            font-weight: 600;
+            transition: 0.5s;
+            width: 100%;
+            font-size: 18px;
+        }
+        button:hover{
+            background: rgb(80, 30, 30);
+        }
+    }
+
+    &__box{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        a{
+            width: 100%;
+        }
+        button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            background: rgb(133, 51, 51);
+            padding: 10px 100px;
+            font-weight: 600;
+            transition: 0.5s;
+            width: 100%;
+        }
+        button:hover{
+            background: rgb(80, 30, 30);
+        }
+    }
+
+    @media(max-width:470px) {
+        &__box{
+            flex-wrap: wrap;
+        }
+    }
+}
