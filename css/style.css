@@ -89,14 +89,18 @@ a {
   text-decoration: none;
 }
 
+h4 {
+  margin: 50px 0;
+}
+
 .best {
   margin: 50px 0;
 }
 .best__wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 10px;
+  justify-content: center;
+  gap: 50px;
 }
 .best__info {
   text-align: center;
@@ -151,6 +155,9 @@ a {
 .catalog__set button:hover {
   background: #000;
   color: #fff;
+}
+.catalog__set img {
+  width: 200px;
 }
 .catalog .line {
   border: solid 1px #fff;
