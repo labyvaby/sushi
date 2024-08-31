@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 .header {
   text-align: center;
+  margin: 50px 0;
 }
-.header img {
-  width: 30px;
-  height: 30px;
+.header__logo {
+  border-radius: 50%;
+  width: 200px;
 }
 .header__wrapper {
   display: flex;
@@ -12,6 +13,10 @@
   align-items: center;
   gap: 10px;
   margin: 40px 0;
+}
+.header__wrapper img {
+  width: 30px;
+  height: 30px;
 }
 .header__wrapper a {
   width: 100%;
@@ -45,10 +50,13 @@
   align-items: center;
   gap: 20px;
   background: rgb(133, 51, 51);
-  padding: 10px 100px;
+  padding: 30px 0;
   font-weight: 600;
   transition: 0.5s;
   width: 100%;
+}
+.header__box button img {
+  width: 50px;
 }
 .header__box button:hover {
   background: rgb(80, 30, 30);
@@ -113,4 +121,37 @@ a {
 .questions__info h4 {
   cursor: pointer;
   font-size: 25px;
+}
+
+.catalog__content {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.catalog__set {
+  width: 305px;
+  border-radius: 30px;
+  background: rgb(133, 51, 51);
+  text-align: center;
+}
+.catalog__set h4 {
+  font-size: 29px;
+  font-weight: 600;
+  color: rgb(142, 214, 70);
+}
+.catalog__set button {
+  background: #fff;
+  color: #000;
+  font-weight: 700;
+  font-size: 24px;
+  padding: 10px 30px;
+  transition: 0.5s;
+}
+.catalog__set button:hover {
+  background: #000;
+  color: #fff;
+}
+.catalog .line {
+  border: solid 1px #fff;
 }/*# sourceMappingURL=style.css.map */
