@@ -136,6 +136,10 @@ ul {
   justify-content: center;
   gap: 30px;
   margin: 40px 0;
+  overflow: scroll;
+}
+.catalog__list::-webkit-scrollbar {
+  display: none;
 }
 .catalog__list li {
   cursor: pointer;
@@ -145,6 +149,7 @@ ul {
   padding: 15px 30px;
   border-radius: 10px;
   transition: 0.5s;
+  white-space: nowrap;
 }
 .catalog__list li:hover {
   background: rgb(80, 30, 30);
