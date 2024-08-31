@@ -97,7 +97,6 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 10px;
-  justify-content: center;
 }
 .best__info {
   text-align: center;
