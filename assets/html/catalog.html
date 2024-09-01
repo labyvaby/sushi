@@ -11,12 +11,19 @@
 <body>
     <section class="catalog">
         <div class="container">
+            <div class="basket">
+                <button>
+                    <a href="./basket.html"> 
+                        <img src="../img/shopping-cart.png" alt="#">
+                    </a>
+                </button>
+            </div>
             <ul class="catalog__list">
-                <li class="catalog__item active" data-id="all">ALL</li>
-                <li class="catalog__item" data-id="drinks">DRINKS</li>
-                <li class="catalog__item" data-id="set">SET</li>
-                <li class="catalog__item" data-id="rolls">ROLLS</li>
-                <li class="catalog__item" data-id="sushi">SUSHI</li>
+                <li class="catalog__item active" data-id="all">ВСЕ</li>
+                <li class="catalog__item" data-id="drinks">НАПИТКИ</li>
+                <li class="catalog__item" data-id="set">СЕТЫ</li>
+                <li class="catalog__item" data-id="rolls">РОЛЛЫ</li>
+                <li class="catalog__item" data-id="sushi">СУШИ</li>
             </ul>
             <div class="catalog__content">
                 <div class="catalog__set set">
@@ -27,9 +34,17 @@
                     <h3>1 430 г - 48 шт</h3>
                     <p>Ролл Фреш new,Ролл Mr.Крабс new, Ролл Ямайка, Ролл Чиз лосось,Ролл Филадельфия классик, Ролл
                         Окинава</p>
-                    <h4>2 299 сом</h4>
-                    <button>Заказать!</button>
+                        <div class="catalog__counter counter__wrapper">
+                            <div class="catalog__control" data-action="minus">-</div>
+                            <div class="catalog__current" data-counter>1</div>
+                            <div class="catalog__control" data-action="plus">+</div>
+                        </div>
+                    <h4 data-price="2299">2 299 сом</h4>
+
+                    <button class="order-button">Заказать!</button>
                 </div>
+
+
                 <div class="catalog__set set">
                     <img src="https://sushivesla.kg/assets/images/products/21/small/5cdad0edaa6bd.png"
                         alt="#">
@@ -37,8 +52,13 @@
                     <div class="line"></div>
                     <h3>1 165 г - 32 шт</h3>
                     <p>Ролл Хоккайдо, Ролл Киото (спайси соус), Ролл Филадельфия с лососем и крабом (спайси соус), Ролл Лариса Ивановна (спайси соус)</p>
-                    <h4>1 299 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="1299">1 299 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set set">
                     <img src="https://sushivesla.kg/assets/images/products/22/small/thumb-234-goods-photo-big-removebg-preview.png"
@@ -47,8 +67,13 @@
                     <div class="line"></div>
                     <h3>788 г - 24 шт</h3>
                     <p>Ролл Филадельфия классик, Ролл Филадельфия спешл, Ролл Филадельфия с лососем и крабом</p>
-                    <h4>1 049 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="1049">1 049 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set set">
                     <img src="https://sushivesla.kg/assets/images/products/23/1788065d8bec8185e3cac485a51f8f9b.png"
@@ -57,8 +82,13 @@
                     <div class="line"></div>
                     <h3>790 г - 26 шт</h3>
                     <p>Ролл Лайт, Ролл Атлантический, Ролл Морской окунь, Суши Лосось (2)</p>
-                    <h4>1 199 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="1199">1 199 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set set">
                     <img src="https://sushivesla.kg/assets/images/products/25/thumb-140-goods-photo-big.png"
@@ -67,8 +97,13 @@
                     <div class="line"></div>
                     <h3>560 г - 20 шт</h3>
                     <p>Ролл Торпеда, Ролл Тихий, Ролл Киото</p>
-                    <h4>700 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="700">700 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set set">
                     <img src="https://sushivesla.kg/assets/images/products/28/76742c3da73b045b7543d9935eb6b8ff.png"
@@ -77,8 +112,13 @@
                     <div class="line"></div>
                     <h3>1 180 г - 40 шт</h3>
                     <p>Ролл Норвежский, Ролл Сансей (белый соус), Ролл Цезарь, Ролл Чиз лосось, Ролл Филадельфия с лососем и крабом (спайси соус)</p>
-                    <h4>1 549 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="1549">1 549 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set set">
                     <img src="https://sushivesla.kg/assets/images/products/70/thumb-228-goods-photo-big-removebg-preview.png"
@@ -87,8 +127,13 @@
                     <div class="line"></div>
                     <h3>410 г - 18 шт</h3>
                     <p>Ролл Огурец new (1/2),Суши Лосось, Спайси суши краб, Ролл Филадельфия спешл, Ролл Лосось (1/2)</p>
-                    <h4>649 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="649">649 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set set">
                     <img src="https://sushivesla.kg/assets/images/products/71/thumb-230-goods-photo-big-removebg-preview.png"
@@ -97,8 +142,13 @@
                     <div class="line"></div>
                     <h3>770 г - 24 шт</h3>
                     <p>Ролл Филадельфия с лососем и крабом (спайси соус), Ролл Тамаши, Ролл Калифорния классик</p>
-                    <h4>1 049 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="1049">1 049 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set set">
                     <img src="https://sushivesla.kg/assets/images/products/72/thumb-232-goods-photo-big-removebg-preview.png"
@@ -107,8 +157,13 @@
                     <div class="line"></div>
                     <h3>930 г - 32 шт</h3>
                     <p>Ролл Филадельфия с лососем и крабом new, Ролл Хокайдо, Ролл Филадельфия спешл, Ролл Калифорния с лососем</p>
-                    <h4>1 349 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="1349">1 349 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set set">
                     <img src="https://sushivesla.kg/assets/images/products/73/thumb-99-goods-photo-big-removebg-preview.png"
@@ -117,8 +172,13 @@
                     <div class="line"></div>
                     <h3>785 г - 32 шт</h3>
                     <p>Ролл Лосось, Ролл Огурец, Ролл Эсколар, Ролл Окинава, Ролл Атлантический.</p>
-                    <h4>1 249 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="1249">1 249 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set set">
                     <img src="https://sushivesla.kg/assets/images/products/76/thumb-266-goods-photo-big-removebg-preview.png"
@@ -127,8 +187,13 @@
                     <div class="line"></div>
                     <h3>1 945 г - 72 шт</h3>
                     <p>Ролл Креветка, Ролл Лосось, Ролл Огурец, Ролл Калифорния классик, Ролл Калифорния с лососем, Ролл Филадельфия классик, Ролл Годзилла, Ролл Хот Вулкан маки, Ролл Манго-Личи</p>
-                    <h4>2 600 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="2600">2 600 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set set">
                     <img src="https://sushivesla.kg/assets/images/products/77/thumb-117-goods-photo-big-removebg-preview.png"
@@ -137,8 +202,13 @@
                     <div class="line"></div>
                     <h3>1 660 г - 46 шт</h3>
                     <p>Суши Лосось (2), Спайси суши Краб (2), Суши Икура (2), Ролл Норвежский, Ролл Калифорния с креветкой, Ролл Филадельфия классик, Ролл Снежи, Ролл Калифорния классик.</p>
-                    <h4>2 249 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="2249">2 249 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set set">
                     <img src="https://sushivesla.kg/assets/images/products/79/thumb-229-goods-photo-big-removebg-preview.png"
@@ -147,8 +217,13 @@
                     <div class="line"></div>
                     <h3>2 765 г - 100 шт</h3>
                     <p>Ролл Чиз лосось, Ролл Филадельфия спешл, Ролл Филадельфия классик, Ролл Калифорния классик, Ролл Зеленая река, Ролл Хокайдо, Ролл Огурец, Ролл Пират, Ролл Сочный Краб , Ролл Сансей, Ролл Нежный, Ролл Mr.Крабс, Ролл Снежи</p>
-                    <h4>3 800 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="3800">3 800 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set set">
                     <img src="https://sushivesla.kg/assets/images/products/80/thumb-124-goods-photo-big-removebg-preview.png"
@@ -157,8 +232,13 @@
                     <div class="line"></div>
                     <h3>1 012 г - 35 шт</h3>
                     <p>Суши Лосось, Суши Угорь, Суши Креветка, Ролл Окинава, Ролл Калифорния классик, Ролл Чиз Лосось, Ролл Шиитаки Сыр</p>
-                    <h4>1 549 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="1549">1 549 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set set">
                     <img src="https://sushivesla.kg/assets/images/products/81/thumb-204-goods-photo-big-removebg-preview.png"
@@ -167,8 +247,13 @@
                     <div class="line"></div>
                     <h3>1 820 г - 53 шт</h3>
                     <p>Ролл Филадельфия классик, Ролл Тунец горячий, Ролл Лайт, Ролл Хокайдо, Ролл Чиз угорь mini, Ролл Морской окунь, Ролл Норвежский</p>
-                    <h4>2 299 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="2299">2 299 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set sushi">
                     <img src="https://sushivesla.kg/assets/images/products/32/sushislososem-570x570.png"
@@ -177,8 +262,13 @@
                     <div class="line"></div>
                     <h3>32 г - 1 шт</h3>
                     <p>Лосось, рис</p>
-                    <h4>100 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="100"> 100 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set sushi">
                     <img src="https://sushivesla.kg/assets/images/products/34/format-153.png"
@@ -187,8 +277,13 @@
                     <div class="line"></div>
                     <h3>32 г - 1 шт</h3>
                     <p>Креветка, нори, рис</p>
-                    <h4>100 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="100">100 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set sushi">
                     <img src="https://sushivesla.kg/assets/images/products/35/253158050003212.png"
@@ -197,8 +292,13 @@
                     <div class="line"></div>
                     <h3>32 г - 1 шт</h3>
                     <p>Угорь, нори, рис</p>
-                    <h4>150 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="150">150 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set sushi">
                     <img src="https://sushivesla.kg/assets/images/products/36/825322-1543780418.5883-original.png"
@@ -207,8 +307,13 @@
                     <div class="line"></div>
                     <h3>32 г - 1 шт</h3>
                     <p>Тунец, нори, рис</p>
-                    <h4>120 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="120">120 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set sushi">
                     <img src="https://sushivesla.kg/assets/images/products/37/ikura-sushi.png"
@@ -217,8 +322,13 @@
                     <div class="line"></div>
                     <h3>35 г - 1 шт</h3>
                     <p>Икра лососевая, нори, рис</p>
-                    <h4>200 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="200">200 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set sushi">
                     <img src="https://sushivesla.kg/assets/images/products/38/423423423.png"
@@ -227,8 +337,13 @@
                     <div class="line"></div>
                     <h3>35 г - 1 шт</h3>
                     <p>Угорь, спайси соус, нори, рис</p>
-                    <h4>150 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="150">150 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set sushi">
                     <img src="https://sushivesla.kg/assets/images/products/39/3423532423.png"
@@ -237,8 +352,13 @@
                     <div class="line"></div>
                     <h3>35 г - 1 шт</h3>
                     <p>Соус ореховый, салат Чукка, нори, рис</p>
-                    <h4>90 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="90">90 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set sushi">
                     <img src="https://sushivesla.kg/assets/images/products/40/spajs-sushi-s-lososem.jpg.png"
@@ -247,8 +367,13 @@
                     <div class="line"></div>
                     <h3>35 г - 1 шт</h3>
                     <p>Лосось, спайси соус, нори, рис</p>
-                    <h4>110 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="110">110 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set sushi">
                     <img src="https://sushivesla.kg/assets/images/products/41/small/5345345345.png"
@@ -257,8 +382,13 @@
                     <div class="line"></div>
                     <h3>35 г - 1 шт</h3>
                     <p>Спайси соус, креветка, нори, рис</p>
-                    <h4>110 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="110">110 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set sushi">
                     <img src="https://sushivesla.kg/assets/images/products/42/small/1-17.png"
@@ -267,8 +397,13 @@
                     <div class="line"></div>
                     <h3>35 г - 1 шт</h3>
                     <p>мясо краба (имитация), спайси соус, нори, рис</p>
-                    <h4>95 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="95">95 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set sushi">
                     <img src="https://sushivesla.kg/assets/images/products/43/small/1123-maguro-karami.png"
@@ -277,8 +412,13 @@
                     <div class="line"></div>
                     <h3>35 г - 1 шт</h3>
                     <p>Тунец, спайси соус, нори, рис</p>
-                    <h4>130 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="130">130 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set sushi">
                     <img src="https://sushivesla.kg/assets/images/products/44/small/thumb-178-goods-photo-big.png"
@@ -287,8 +427,13 @@
                     <div class="line"></div>
                     <h3>35 г - 1 шт</h3>
                     <p>Копчёный угорь и курица, спайси соус, нори, рис</p>
-                    <h4>120 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="120">120 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set sushi">
                     <img src="https://sushivesla.kg/assets/images/products/45/small/thumb-179-goods-photo-big.png"
@@ -297,8 +442,13 @@
                     <div class="line"></div>
                     <h3>31 г - 1 шт</h3>
                     <p>мясо краба (имитация), нори, рис</p>
-                    <h4>90 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="90">90 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set rolls">
                     <img src="https://sushivesla.kg/assets/images/products/26/small/thumb-42-goods-photo-big-removebg-preview.png"
@@ -307,8 +457,13 @@
                     <div class="line"></div>
                     <h3>255 г - 8 шт</h3>
                     <p>Лосось, майонез, мягкий сыр, тобико красная, огурец, нори, рис</p>
-                    <h4>399 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="399">399 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set rolls">
                     <img src="https://sushivesla.kg/assets/images/products/27/small/thumb-40-goods-photo-big-removebg-preview.png"
@@ -317,8 +472,13 @@
                     <div class="line"></div>
                     <h3>390 г - 8 шт</h3>
                     <p>Лосось, мягкий сыр, огурец, нори, рис</p>
-                    <h4>449 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="449">449 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set drinks">
                     <img src="https://sushivesla.kg/assets/images/products/53/small/a5e3c7a96c0a5af7040a9d0c36354ac7.png"
@@ -326,8 +486,13 @@
                     <h2>Пепси</h2>
                     <div class="line"></div>
                     <h3>1 000 мл - 1 шт</h3>
-                    <h4>120 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="120">120 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set drinks">
                     <img src="https://sushivesla.kg/assets/images/products/54/small/9ndfohh3af69tk6ryukcohc3-650x650.png"
@@ -335,8 +500,13 @@
                     <h2>Липтон Лимон</h2>
                     <div class="line"></div>
                     <h3>1 000 мл - 1 шт</h3>
-                    <h4>120 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="120">120 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set drinks">
                     <img src="https://sushivesla.kg/assets/images/products/55/small/f55edc53968409a87a49b4e138cfbc81.png"
@@ -344,8 +514,13 @@
                     <h2>Липтон персик</h2>
                     <div class="line"></div>
                     <h3>1 000 мл - 1 шт</h3>
-                    <h4>120 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="120">120 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set drinks">
                     <img src="https://sushivesla.kg/assets/images/products/55/small/f55edc53968409a87a49b4e138cfbc81.png"
@@ -353,8 +528,13 @@
                     <h2>Миринда</h2>
                     <div class="line"></div>
                     <h3>1 250 мл - 1 шт</h3>
-                    <h4>140 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="140">140 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set drinks">
                     <img src="https://sushivesla.kg/assets/images/products/58/small/ru-pim-528147001001-01.png"
@@ -362,8 +542,13 @@
                     <h2>Апельсин</h2>
                     <div class="line"></div>
                     <h3>970 мл - 1 шт</h3>
-                    <h4>150 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="150">150 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
                 <div class="catalog__set drinks">
                     <img src="https://sushivesla.kg/assets/images/products/60/small/ru-pim-528155001001-01.png"
@@ -371,14 +556,21 @@
                     <h2>Яблочный</h2>
                     <div class="line"></div>
                     <h3>970 мл - 1 шт</h3>
-                    <h4>140 сом</h4>
-                    <button>Заказать!</button>
+                    <div class="catalog__counter counter__wrapper">
+                        <div class="catalog__control" data-action="minus">-</div>
+                        <div class="catalog__current" data-counter>1</div>
+                        <div class="catalog__control" data-action="plus">+</div>
+                    </div>
+                    <h4 data-price="140">140 сом</h4>
+                    <button class="order-button">Заказать!</button>
                 </div>
             </div>
         </div>
     </section>
 
     <script src="../js/filter.js"></script>
+    <script src="../js/counter.js"></script>
+    <script src="../js/cart.js"></script>
 </body>
 
 </html>
